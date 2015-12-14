@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------CSS Reset Above-----*/
+
+body {
+  background: #EEEEEE;
+  margin: 50px;
+}
+
+.bluebackground {
+  background: #EBE3FF;
+}
+
+header {
+  text-align: center;
+  font-family: arial;
+}
+
+footer {
+  font-family: arial;
+  font-size: 15px;
+  text-align: center;
+	font-weight: bold;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 45px;
+	font-weight: bold;
+  margin-top: 0.4em;
+	margin-bottom: 0.6em;
+}
+
+h2 {
+  font-family: arial;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+  font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h4 {
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+p {
+	font-family: Times;
+	font-size: 18px;
+	margin-bottom: 1em;
+	line-height: 1.25em;
+}
+
+img {
+	padding: 5px;
+	border: 1px;
+	border-style: solid;
+	margin-left: 25px;
+}
+
+ol {
+	list-style: disc;
+}
+
+ul {
+	display: table;
+	margin-left: 1em;
+	padding-left: 1em;
+	list-style-position: inside;
+}
+
+li {
+	list-style: square;
+	margin-left: 20px;
+}
+
+.arial {
+	font-family: arial;
+}
+
+.none {
+	list-style-type: none;
+}
+
+.formatting {
+	margin-left: 3em;
+}
+
+strong, b, strong *, b *
+{
+  font-weight: bold;
+}
+
+em, i, em *, i *
+{
+  font-style: italic;
+}
+
+small {
+	font-size: small;
+}
