@@ -1,0 +1,99 @@
+/*
+Project Name: Weather Application Homework
+Client: FEWD38
+Due: Wednesday 1/20/16
+Author: Clayton Hopkins
+Developer @GA in SF
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  color: #043049;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background: #f0efef;
+  padding: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+input {
+  padding: 1em;
+  font-size: 15px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+button {
+  padding: 1.1em;
+  font-size: 15px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/*
+
+.celsius-type {
+  color: #6b6b6c;
+  font-size: 20px;
+  background: #fff;
+  border: 1px solid #111;
+  padding: 0px 20px;
+  display: inline-block;
+  width: 300px;
+  margin-right: 24px;
+  height: 80px;
+  line-height: 75px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.submit-btn {
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+  height: 80px;
+  line-height: 75px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background: rgba(1,1,1,.5);
+  color: #fff;
+  font-weight: bold;
+}
+*/
