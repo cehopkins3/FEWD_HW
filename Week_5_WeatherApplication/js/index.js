@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
     var c;
-    // set variable = c
-    // set value equals undefined by default. 
+    // set default variable to c.
+    // set value equals undefined by default.
 
     var changeBackground = function(degree) {
       if (degree >= 32) {
@@ -24,27 +24,27 @@ $(document).ready(function() {
 
     //We used [ console.log(c); ] to save and run in the DOM to test our input field. When we entered "4" for example, the DOM showed us "4" once we pressed the click button. Once confirmed, removed console.log.
 
-      c = $('#c').val();
       //First step
       //this is a list of directions.
       //We are assigning c to the value of the input ID (use the hashtag to call an ID) of c.
       //now the dom has c stored as a value.
+      c = $('#c').val();
 
-      var f = c * (9/5) + 32;
       //Second step
       //declaring a second variable = f
       //we assign f = the formula to conver c to f
+      var f = c * (9/5) + 32;
 
-      $( '#f' ).val( f );
       //Third step
       // We want to display value of f in the input field with ID of f, after running above formula.
+      $( '#f' ).val( f );
 
-      changeBackground(f);
       //Fourth step
       //Take the value of f run changeBackground to change the background color
       //Above, this is a function with one argument. The argument is "f"
       //See above function declaration for changeBackground: we connect degree with f becuse we pass this argument through our change background function to see, when the click event happens (see above) if we need to change the background based on the if else statement that we define below.
       //we are putting "changeBackground(f) to action - as opposed to defining the function"
+      changeBackground(f);
 
     });
 
@@ -60,23 +60,23 @@ $(document).ready(function() {
     //Here, I'm using the function with a number of 111.
 */
 
-    $('.reset').click(function() {
     //we have an event handler (click) listening for the selctor with a class of "reset" which is the button. When the browser hears the click, it runs a function.
+    $('.reset').click(function() {
 
       //we we listen to the click, we want to reset both f and c values in the input fields.
 
-      c = 0;
       //reset variable c to equal 0.
+      c = 0;
 
-      $('#f').val( "" );
       //reset id of f to the value of 0 as well.
+      $('#f').val( "" );
 
-      $('#c').val( "" );
       //also reset the input value for id c, which we use the hashtag to call the ID.
+      $('#c').val( "" );
 
+      //when the click event occurs for our reset button, we want to use the jQuery selector for the entire body (hence no css class selector period before 'body') to change the css of the background color back to grey from red or blue back to grey.
       $('body').css('background', '#f0efef' );
       $('body').css('color', '#043049');
-      //when the click event occurs for our reset button, we want to use the jQuery selector for the entire body (hence no css class selector period before 'body') to change the css of the background color back to grey from red or blue back to grey.
 
     });
 
